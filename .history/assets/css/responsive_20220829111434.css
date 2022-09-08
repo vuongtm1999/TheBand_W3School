@@ -1,0 +1,9 @@
+PC: >= 1024px//
+Tablet: >=740px & < 1024px//
+Mobile: < 740px
+
+
+/* PC */
+@media (min-width:1024px) {
+    
+}

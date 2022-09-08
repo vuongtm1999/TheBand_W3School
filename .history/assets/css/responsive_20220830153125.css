@@ -1,0 +1,38 @@
+
+/* PC */
+@media (min-width:1024px) {
+    #header .mobile-menu-btn{
+        display: none !important;
+    }
+}
+
+/* Tablet */
+@media (min-width:740px) and (max-width:1024px) {
+    #header .mobile-menu-btn{
+        display: none !important;
+    }
+}
+
+/* Mobile */
+@media (max-width:740px) {
+    #header .search-button{
+        display: none !important;
+    }
+    
+    #snav{
+        display: block !important;
+    }
+
+    #header{
+        overflow: hidden !important;
+    }
+
+    #nav > li{
+        display: block !important;
+    }
+
+    #nav > li:first-child{
+        display: inline-block !important;
+    }
+
+}
